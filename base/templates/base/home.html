@@ -1,0 +1,63 @@
+{% extends "main.html" %}
+
+{% block content %}
+  
+ 
+    <!--==================== HOME ====================-->
+    <section class="home" id="home">
+        <img src="static/images/home1.jpg" alt="" class="home__img">
+
+        <div class="home__container container grid">
+            <div class="home__data">
+                <span class="home__data-subtitle">Discover your place</span>
+                <h1 class="home__data-title">Escape. Relax. <br>Enjoy.</b></h1>
+                <a href="#" class="button">Explore</a>
+
+            </div>
+
+            <div class="home__social">
+                <a href="https://www.facebook.com/fridayretreats" target="_blank" class="home__social-link">
+                    <i class="ri-facebook-box-fill"></i>
+                </a>
+                <a href="https://www.instagram.com/fridayretreats" target="_blank" class="home__social-link">
+                    <i class="ri-instagram-fill"></i>
+                </a>  
+                <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                    <i class="ri-twitter-fill"></i>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+
+     <!--==================== ABOUT ====================-->
+  <section class="about section" id="about">
+    <div class="about__container container grid">
+        <div class="about__data">
+            <h2 class="section__title about__title">More Information <br> About Friday Retreats</h2>
+            <p class="about__description">Friday Retreats offers holiday packages, flight bookings,
+                 and access to 1500+ partner properties, with exclusive discounts for members
+            </p>
+            <h2 class="section__title about__title">Services</h2>
+            <p class="about__description">Discover our comprehensive range of services, including flight bookings
+                 accommodation, and personalized holiday packages.Let us take care of every detail,
+                  so you can focus on creating unforgettable memories.
+           </p>
+
+            <a href="#" class="button">Reserve a place</a>
+        </div>
+
+        <div class="about__img">
+            <div class="about__img-overlay">
+                <img src="static/images/about1.png" alt="" class="about__img-one">
+            </div>
+
+            <div class="about__img-overlay">
+                <img src="static/images/about2.png" alt="" class="about__img-two">
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock content %} 
+

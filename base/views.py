@@ -1,12 +1,21 @@
 from django.shortcuts import render
+from .models import Data
 
 # Create your views here.
 
-def home(request):
-    return render(request,'base/home.html')
 
-def about(request):
-    return render(request,'base/about.html')
+def Home(request):
+    Place = Data.objects.all()
+    context = {"place": Place}
+    return render(request, "base/home.html",context)
 
-def place(request):
-    return render(request,'base/place.html')
+
+def About(request):
+    
+    return render(request, "base/about.html",)
+
+
+def Place(request):
+    Place = Data.objects.all()
+    context = {"place": Place}
+    return render(request, "base/place.html", context)

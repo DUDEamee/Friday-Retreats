@@ -7,3 +7,6 @@ def home(request):
 
 def about(request):
     return render(request,'base/about.html')
+
+def place(request):
+    return render(request,'base/place.html')

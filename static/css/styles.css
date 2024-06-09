@@ -81,7 +81,12 @@ body.dark-theme {
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
 }
 
+.navpara{
+  color:red;
+}
+
 /*========== Button Dark/Light ==========*/
+
 .nav__dark {
   display: flex;
   align-items: center;
@@ -302,6 +307,7 @@ input {
   object-fit: cover;
   object-position: 83%;
 }
+
 
 .home__container {
   position: relative;

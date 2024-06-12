@@ -19,3 +19,5 @@ def Place(request):
     Place = Data.objects.all()
     context = {"place": Place}
     return render(request, "base/place.html", context)
+
+

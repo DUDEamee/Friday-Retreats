@@ -6,4 +6,6 @@ urlpatterns = [
     path('about',views.About, name='about'),
     path('place',views.Place, name='place'),
 
+
+
 ]

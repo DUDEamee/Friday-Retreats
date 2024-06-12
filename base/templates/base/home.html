@@ -68,8 +68,9 @@
     <h2 class="section__title">Choose Your Place</h2>
 
     <div class="place__container container grid">
-{% for item in place %}
 
+
+{% for item in place %}
 
 <div class="place__card">
     <img src="{{item.Image.url}}" alt="{{item.Image.url}}" class="place__img">
@@ -83,9 +84,11 @@
         </div>
     </div>
 
-    <button class="button button--flex place__button">
-        <i class="ri-arrow-right-line"></i>
-    </button>
+    <a href="">
+        <button  class="button button--flex place__button">
+             <i  class="ri-arrow-right-line"style="color: #fff;"></i>
+        </button>
+    </a>
 </div>
   
 {% endfor %}
